@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my first html</title>
+	<link rel="stylesheet" type="text/css" href="123.css">
+	<style>
+	p{
+		color: blue;
+	}
+	.ToMagenta
+	{
+		color: magenta;
+	}
+
+	#p2 {
+		color: lime;
+	}
+	.bgred {
+		background-color: red; 
+	}
+	div {
+		color: red;
+		border: 2px solid green;
+	}
+	span {
+		border: 3px solid blue; 
+	}
+
+	</style>
+</head>
+<body>
+	<p style="color: yellow;">this is par1</p>
+	<p id="p2"> this is  par2</p>
+	<p class="ToMagenta bgred"> this is  par3</p>
+	<p class="ToMagenta"> this is  par4</p>
+	<div>this is div
+		<div>this is div inside </div>
+	</div>
+	<span>this is span</span>
+</body>
+</html>
